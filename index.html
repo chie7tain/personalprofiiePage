@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>personal Profile page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="./css/tablet.css">
+		<link rel="stylesheet" type="text/css" href="./css/desktop.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bree+Serif&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<div id="main-container">
+
+		<section id="profile-container">
+			<div class="header-image-container">
+				<div class="header-container">
+					<h1>Ifeanyi Okwuobi aka Chie7tain Frontend Engineer</h1>
+				</div>
+				<div class="img-container">
+					<img src="founder.jpg" alt="Image of Ifeanyi Okwuobi">
+				</div>
+				<div class="social-container">
+					
+				</div>
+			</div>
+				<section class="bio-container">
+					<div class="bio">
+						<h2>Meet me</h2>
+						<p>
+							I am a front end developer who enjoys helping brilliant clients to build beautiful and straight forward products using Html, CSS and
+							Javascript.
+						</p>
+						<p>
+							follow me on twitter at <a href="https://twitter.com/ol7mpian" target="_blank"><span
+									class="link">@Ol7mpian</span></a> where i generally try to make a fool of myself by explaining some concepts
+							of
+							life and code.
+						</p>
+					</div>
+					<div id="about">
+						<h2>A little about me</h2>
+						<ul>
+							<li>I was Born on the 31st of August at the height of the rainy season,</li>
+							<li>I live and work in Abuja, Nigeria with my Dog Benjamin, i am from Delta state,</li>
+							<li>I work as a Freelance Software Developer</li>
+							<li>My Slack Id is <span class="link">@Chie7tain</span></li>
+						</ul>
+					</div>
+					<div id="summary">
+						<h2>In summary</h2>
+						<p>
+							I am a software developler who plays table tennis and volleyball in his spare time, see movies and reads lots of
+							books especialy how to get rich quick books.lol. I also enjoy travelling in style and comfort and some day i would
+							make a ton of money and rule the world and make it better than it is now.
+						</p>
+					</div>
+				</section>
+		</section>
+
+
+
+		<section id="contact-form-container">
+			<!-- <div class="form-container"> -->
+				<div>
+					<h2>Contact Me</h2>
+				</div>
+				<form method="POST" action="processContact.php">
+					<div class="input-container">
+					<input type="text" name="fname" autocomplete="off" required="">
+					<label for="fname" class="label-name">
+						<span class="content-name">First Name:</span>
+					</label>
+					</div>
+					<div class="input-container">
+						<input type="text" name="lname" required="" autocomplete="off">
+						<label for="lname" class="label-name" >
+							<span class="content-name">Last name:</span>
+						</label>
+					</div>
+					<div class="input-container">
+						<input type="email" name="email" autocomplete="off" required="" >
+						<label for="email" class="label-name">
+							<span class="content-name">Email:
+						</label>
+					</div>
+
+					<div class="input-container">
+						<input type="text" name="phone" required="" autocomplete="off">
+						<label class="label-name" for="phone">
+							<span class="content-name">Phone</span>
+						</label>
+					</div>
+					<div class="select-container">
+						<div>
+						<label for="gender">Gender:</label>
+						</div>
+						<select  name="gender" required>
+							<option selected disabled>Select Gender</option>
+							<option class="option">Male</option>
+							<option class="option">Female</option>
+							<!-- <option>Undecided</option> -->
+						</select>
+					</div>
+					<div class="btn-container">
+						<button id="btn" type="submit">Submit</button>
+					</div>
+				</form>
+			<!-- </div> -->
+		</section>
+	</div>
+
+	</body>
+</html>
